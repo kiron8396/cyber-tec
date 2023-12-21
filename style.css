@@ -27,16 +27,28 @@ nav{
     
 }
 
-
+.user{
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+}
 
 .fa-solid{
     color: white;
     align-items: center;
     margin-top: 10px;
-    margin-left: 100px;
+   
 }
 #fa{
     margin-left: 10px;
+    
+}
+.login{
+    
+    color: white;
+    align-items: center;
+    margin-top: 10px;
+
 }
 header{
    
@@ -52,8 +64,8 @@ header{
         color: white;
     }
     .navigation:hover{
-        background-color: rgb(255, 0, 234);
-        color:rgb(0, 0, 0);
+        background-color: rgb(50, 20, 63);
+        color:rgb(255, 255, 255);
         transition: .5s;
         box-shadow: 0 8px 8px rgba(8, 8, 8, 0.555);
         
@@ -159,3 +171,54 @@ font-family: 'Ubuntu', sans-serif;
     .marg{
         margin-left: 15px;
     }
+    /* Login Page */
+    .login-input{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin-top: 100px;
+
+    }
+    .login-input input{
+     margin-top: 10px;
+     font-size: 20px ;
+     padding: 4px 12px;
+     
+
+    }
+    .login-section{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    .login-title{
+        color: azure;
+        position: relative;
+        left: 320px;
+        font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 30px;
+
+    }
+    .login-input input{
+        border-radius: 5px;
+    }
+    .submit-login{
+        background-color: rgb(110, 0, 133);
+        color: white;
+        font-weight: bold;
+        border: .5px solid white;
+        padding-top: 5px ;
+        padding-bottom: 10px ;
+        margin-top: 10px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    
