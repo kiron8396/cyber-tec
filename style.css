@@ -26,6 +26,18 @@ nav{
     height: 150px;
     
 }
+
+
+
+.fa-solid{
+    color: white;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#fa{
+    margin-left: 10px;
+}
 header{
    
 
